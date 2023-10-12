@@ -1,0 +1,33 @@
+x = 1
+
+# Boulean
+# y = True
+# z = False
+
+
+# if y:
+#     print("x is big")
+#     print("look at this code here")
+# elif x == 10:
+#     print("x is 10")
+# else:
+#     print("x is tiny")
+
+    # more list stuff
+
+# my_list = ["Mac", "Gonzalez", "Judon", "Owenu", "Parker"]
+# # [start:end:stop]
+# print(my_list[1])
+# print(f'my favorite players are'{my_list[0::1]})
+
+# f = 17
+# d = 18
+
+# if f > d:
+#     print("Brady is the goat")
+
+# else:
+#     print("Brady is not the goat")
+
+my_list = ["Football", "Basketball", "Soccer"]
+print(my_list[:-3])

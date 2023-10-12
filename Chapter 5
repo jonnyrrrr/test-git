@@ -1,0 +1,52 @@
+player_list = ["mac", 'gonzalez', 'judon', 'owenu', 'parker', 'stevenson', 'dugger', 'detrich']
+
+best_players = []
+
+for item in player_list:
+    if item[0] in ['g', 'j', 'o', 's']:
+        best_players.append(item)
+    else:
+        continue
+
+print(best_players)
+
+
+# letter_to_check = input('What letter should we check? ')
+
+# Counter = 0
+
+# for player in player_list:
+#     if player[0] == letter_to_check:
+#         print(player)
+#     else:
+#         print("Nothing with that letter here")
+#         Counter += 1
+#         print(Counter)
+    
+
+# for i in range(len(player_list)):
+#     print(player_list[i])
+
+# for i in range(0, 30, 3):
+#     print(i)
+
+# x = 5
+# y = 6
+
+# if y == 5 or x != 5:
+#     print('i want funnel cake')
+
+# elif x != 5 or y == 6:
+#     print('i dont want funnel cake')
+
+# elif x == 6 and y == 5:
+#     print('cheese')
+
+
+x = 0
+y = 1
+
+if x:
+    print('power ranger')
+elif y: 
+    print('monster')
